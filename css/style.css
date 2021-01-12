@@ -1,0 +1,48 @@
+/* clases */
+    /* margin and padding 0 */
+    #header
+    {
+        margin: auto;
+        width: 500px
+    }
+    #header ul{
+        margin: 0px;
+        padding: auto;
+    }
+
+    .nav li
+    {
+        background-color: #000000;
+        color: #ffffff;
+        padding: 10px 15px;
+        display: block;
+    }
+
+    .nav ul li label
+    {
+        padding-right: 100%;
+        color: #AEAEAE;
+    }
+
+    .nav li ul li:hover
+    {
+        background-color: #434343;
+    }
+
+    .nav > li
+    {
+        background-color: #222222;
+    }
+
+    input
+    {
+        display: none;
+    }
+
+/* elements */
+
+    /* quit icons of elements ul */
+    ul, ol
+    {
+        list-style: none;
+    }
