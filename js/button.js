@@ -11,7 +11,7 @@ function getButtons()
         buttons.push(document.querySelector(id));
         buttons[i].onclick = () =>
         {
-            console.log(document.childElementCount);
+            console.log(document.childElementCount)
             if (buttons[i].checked)
             {
                 selectionables[i].style.display = "none";
